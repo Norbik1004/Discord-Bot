@@ -1,2 +1,2 @@
 # Discord-Bot
-My discord bot :)
+My discord bot's code :)
