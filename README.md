@@ -29,5 +29,5 @@ Then save and exit the file.
 
 7. Do `npm init` and use enter to skip the questions (You can answer if you want)
 8. Next use: `npm install discord.js`
-9. Now, download the code and paste it into the **discord-bot** folder.
+9. Now, download the code and paste it into the **discord-bot** folder. Customise the **info** file in the **commands** folder.
 10. Finally, use `nano index.js` - now, the bot should be online. 
