@@ -7,7 +7,7 @@ module.exports = {
             let desc = args.slice(0).join(' ');
         
             const Discord = require("discord.js");
-       		const client = new Discord.Client();
+            const client = new Discord.Client();
     	    const embed = new MessageEmbed()
      	    .setTitle("**ANNOUNCEMENT!**")
             .setDescription(desc)
