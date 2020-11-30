@@ -1,6 +1,8 @@
 # Discord-Bot
 My discord bot's code :)
 This is a small part of my bot, you can use it if you want!
+**If you want a new feature, please open an issue and desribe it. I will add it ASAP!
+You can contact me on discord: Norbik1004#2468**
 
 # SETUP
 
