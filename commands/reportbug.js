@@ -4,7 +4,7 @@ module.exports = {
     name: 'reportbug',
     description: "report a bug to the staff!",
     execute(message, args){
-        let a = message.guild.channels.cache.find(channel => channel.id === '765252683443470346');
+        let a = message.guild.channels.cache.find(channel => channel.id === 'BUG_REPORTS_CHANNEL_ID');
         let bug = args.slice(0).join(' ');
         
         const Discord = require("discord.js");
