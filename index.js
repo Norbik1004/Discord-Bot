@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ytdl = require("ytdl-core");
  
 const prefix = '>';
  
@@ -40,14 +39,6 @@ client.on('message', message =>{
  
     if(command === 'help'){
         client.commands.get('help').execute(message, args);
-    } else if(command === 'ranks'){
-      message.channel.send("SOON!")
-    } else if(command === 'ip'){
-      message.channel.send("IP?")
-    } else if(command === 'season'){
-      message.channel.send("Current Season: Christmas!")
-    } else if(command === 'join'){
-        client.commands.get('join').execute(message, args); s
     } else if(command === 'announce'){
         client.commands.get('announce').execute(message, args);
     } else if(command === 'embed'){
@@ -107,11 +98,7 @@ client.on('message', message =>{
           // If the member is in the guild
           if (member) {
             /**
-             * Ban the member
-             * Make sure you run this on a member, not a user!
-             * There are big differences between a user and a member
-             * Read more about what ban options there are over at
-             * https://discord.js.org/#/docs/main/master/class/GuildMember?scrollTo=ban
+             * Ban the member=
              */
             member
               member.ban({
