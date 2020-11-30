@@ -8,9 +8,9 @@ module.exports = {
         
             const Discord = require("discord.js");
             const client = new Discord.Client();
-        	const embed = new MessageEmbed()
+            const embed = new MessageEmbed()
             .setDescription(desc)
-        	.setFooter(`Requested by: ${message.author.tag}`, (message.author.displayAvatarURL()))
+            .setFooter(`Requested by: ${message.author.tag}`, (message.author.displayAvatarURL()))
             .setColor('#1fff00');
             embed.setTimestamp()
         
