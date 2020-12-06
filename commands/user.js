@@ -19,6 +19,6 @@ module.exports = {
 	    )
 	embed.setTimestamp()  
         .setFooter(`Requested by: ${message.author.tag}`, (message.author.displayAvatarURL()))
-        message.channel.send(embed);
+        message.channel.send(embed); 
     }
 }
